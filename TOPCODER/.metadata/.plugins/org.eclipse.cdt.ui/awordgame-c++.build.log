@@ -1,0 +1,22 @@
+17:15:57 **** Incremental Build of configuration Debug for project awordgame-c++ ****
+make all 
+Building file: ../AWordGameTest.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"AWordGameTest.d" -MT"AWordGameTest.d" -o "AWordGameTest.o" "../AWordGameTest.cpp"
+In file included from ../AWordGameTest.cpp:1:
+../AWordGame.h: In member function 'void AWordGame::parseWords(std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)':
+../AWordGame.h:23: warning: comparison between signed and unsigned integer expressions
+../AWordGame.h: In member function 'std::string AWordGame::minimax(std::string)':
+../AWordGame.h:34: warning: comparison between signed and unsigned integer expressions
+../AWordGame.h:41: warning: array subscript has type 'char'
+../AWordGame.h:42: warning: array subscript has type 'char'
+Finished building: ../AWordGameTest.cpp
+ 
+Building target: awordgame-c++
+Invoking: MacOS X C++ Linker
+g++  -o "awordgame-c++"  ./AWordGameTest.o   
+Finished building target: awordgame-c++
+ 
+
+17:15:58 Build Finished (took 670ms)
+
